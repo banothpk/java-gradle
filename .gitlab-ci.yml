@@ -4,7 +4,7 @@ stages:
 build-java-project:
   stage: build
   script:
-    gradle package
+    - echo "Hello World!!"
   artifacts:
     paths:
       - /home/gitlab-runner/
